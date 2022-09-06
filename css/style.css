@@ -159,6 +159,9 @@ footer, #footer {
     box-shadow: 0 0 20px 0 rgba(225, 225, 225, 0.3); }
     #contacto #section .contactUs .form_box {
       background: #222222; }
+      #contacto #section .contactUs .form_box .form-label {
+        color: #4b4c4d;
+        font-size: 17px; }
       #contacto #section .contactUs .form_box .form-control {
         background: none;
         border: none;
