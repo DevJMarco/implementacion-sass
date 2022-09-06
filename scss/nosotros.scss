@@ -1,0 +1,37 @@
+/*---------------------------Pagina para Nosotros---------------------------*/
+
+#nosotros #section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+    grid-template-rows: repeat(1, auto);
+    justify-content: center;
+    padding: 5em;
+    gap: 80px;
+
+    .comment{
+        background: #171717;
+        color: #fff;
+        text-align: center;
+    }
+    .img_user{
+        height: 90px;
+        object-fit: cover;
+        margin-top: -50px;
+    }
+
+    .name_user{
+        font-size: 30px;
+        padding: 20px;
+        margin: 0;
+    }
+
+    .opinion{
+        padding: 12px;
+    }
+
+    .stars i{
+        color: #e91e63;
+        padding: 0 0 2em 0 ;
+        font-size: 20px;
+    }
+}

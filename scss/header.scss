@@ -1,0 +1,13 @@
+/*---------------------------Header para todas las paginas---------------------------*/
+
+.header{
+    .navbar-brand{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 25px;
+    }
+    .nav-link:hover{
+        background: orange;
+        transition: .5s;
+    }
+}
+

@@ -1,0 +1,18 @@
+/*---------------------------Main para todas las paginas---------------------------*/
+
+#main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    .title{
+        color: #fff;
+        padding: 15px;
+    }
+
+    p{
+        color: #fff;
+        padding: 15px;
+    }
+}

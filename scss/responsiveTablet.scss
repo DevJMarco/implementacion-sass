@@ -1,0 +1,28 @@
+/*----------------------------Responsive tablet--------------------------------*/
+
+@media (max-width: 992px){
+
+    /*Pagina Servicios*/
+    #services .card img{
+        height: 50% !important;
+    }
+    #services .section .card{
+        height: auto;
+    }
+    #services .section .col{
+        width: 80% !important;
+    }
+
+    /*Pagina Productos*/
+    #productos #section{
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(3, 450px);
+    }
+
+    /*Pagina Contacto*/
+    #contacto .contactUs{
+        grid-template-columns: repeat(1, 100%) !important;
+        grid-template-rows: 500px auto;
+        justify-content: center;
+    }
+}   

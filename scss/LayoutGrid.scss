@@ -1,0 +1,16 @@
+/*----------------Layout GRID para Productos, Nosotros y Contacto----------------*/
+
+.grid_container{
+    display: grid;
+    grid-template: 
+    "header" auto 
+    "main" 50vh
+    "section" auto
+    "footer" auto /
+    100%;
+}
+
+#header{grid-area: header;}
+#main{grid-area: main;}
+#section{grid-area: section;}
+#footer{grid-area: footer;}

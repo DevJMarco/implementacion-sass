@@ -1,0 +1,31 @@
+/*----------------------------Responsive mobile--------------------------------*/
+
+@media (max-width: 580px){
+    /*All Headers*/
+    .logotype .logo{
+        height: 55px;
+    }
+
+    /*Pagina Home*/
+    .carousel-item img{
+        object-fit:cover ;
+    }
+
+    /*Pagina Productos*/
+    #productos #section{
+        grid-template-columns: repeat(1, auto);
+        grid-template-rows: repeat(6, 450px);
+    }
+
+    /*Pagina Nosotros*/
+    #nosotros #section{
+        grid-template-columns: repeat(1, 80%);
+        grid-template-rows: repeat(3, auto);
+        padding: 5em 0;
+    }
+
+    /*Pagina Contacto*/
+    #contacto #section{
+        padding: 2em;
+    }
+}

@@ -1,0 +1,13 @@
+/*Declaracion de variables y paleta de colores*/
+
+$ColorHeaderFooter: #1a1b1c;
+$ColorMain: #222326;
+$ColorSection: #727683;
+
+header, #header{ background: $ColorHeaderFooter; }
+
+main, #main{ background: $ColorMain; }
+
+section, #section{ background: $ColorSection; }
+
+footer, #footer{ background: $ColorHeaderFooter; }

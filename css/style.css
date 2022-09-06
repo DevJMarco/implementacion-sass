@@ -1,0 +1,231 @@
+/*Declaracion de variables y paleta de colores*/
+header, #header {
+  background: #1a1b1c; }
+
+main, #main {
+  background: #222326; }
+
+section, #section {
+  background: #727683; }
+
+footer, #footer {
+  background: #1a1b1c; }
+
+/*---------------------------Header para todas las paginas---------------------------*/
+.header .navbar-brand {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px; }
+
+.header .nav-link:hover {
+  background: orange;
+  transition: .5s; }
+
+/*---------------------------Pagina Home---------------------------*/
+#home .card {
+  width: 320px;
+  transition: 0.5s ease;
+  cursor: pointer; }
+  #home .card:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6); }
+
+/*---------------------------Pagina Servicios---------------------------*/
+#services .col {
+  width: 40%; }
+  #services .col .card {
+    height: 350px;
+    width: 90% !important;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+    transition: all 400ms ease;
+    cursor: default; }
+    #services .col .card:hover {
+      box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.7);
+      transform: translateY(-3%); }
+    #services .col .card img {
+      height: 50%; }
+
+/*----------------Layout GRID para Productos, Nosotros y Contacto----------------*/
+.grid_container {
+  display: grid;
+  grid-template: "header" auto  "main" 50vh "section" auto "footer" auto / 100%; }
+
+#header {
+  grid-area: header; }
+
+#main {
+  grid-area: main; }
+
+#section {
+  grid-area: section; }
+
+#footer {
+  grid-area: footer; }
+
+/*---------------------------Main para todas las paginas---------------------------*/
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center; }
+  #main .title {
+    color: #fff;
+    padding: 15px; }
+  #main p {
+    color: #fff;
+    padding: 15px; }
+
+/*---------------------------Pagina para Productos---------------------------*/
+#productos #section {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-template-rows: repeat(2, 400px);
+  justify-content: center;
+  padding: 50px;
+  gap: 50px; }
+  #productos #section .cards {
+    background: #fff;
+    border-radius: 5px;
+    text-align: center; }
+    #productos #section .cards .img_producto {
+      height: 50%;
+      margin-top: 30px;
+      cursor: pointer; }
+    #productos #section .cards .description {
+      font-size: 20px;
+      padding: 5px;
+      margin-top: 13px;
+      cursor: pointer; }
+    #productos #section .cards .price_cart {
+      display: flex;
+      justify-content: space-between; }
+      #productos #section .cards .price_cart .price {
+        background: #184770;
+        width: 110px;
+        height: 50px;
+        border-radius: 0 15px 0 0;
+        cursor: pointer; }
+        #productos #section .cards .price_cart .price p {
+          margin: 0;
+          color: #fff; }
+      #productos #section .cards .price_cart .cart {
+        background: #7088A0;
+        width: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 30px;
+        cursor: pointer; }
+        #productos #section .cards .price_cart .cart p {
+          margin: 0;
+          color: #fff; }
+
+/*---------------------------Pagina para Nosotros---------------------------*/
+#nosotros #section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-rows: repeat(1, auto);
+  justify-content: center;
+  padding: 5em;
+  gap: 80px; }
+  #nosotros #section .comment {
+    background: #171717;
+    color: #fff;
+    text-align: center; }
+  #nosotros #section .img_user {
+    height: 90px;
+    object-fit: cover;
+    margin-top: -50px; }
+  #nosotros #section .name_user {
+    font-size: 30px;
+    padding: 20px;
+    margin: 0; }
+  #nosotros #section .opinion {
+    padding: 12px; }
+  #nosotros #section .stars i {
+    color: #e91e63;
+    padding: 0 0 2em 0;
+    font-size: 20px; }
+
+/*---------------------------Pagina para Contacto---------------------------*/
+#contacto #section {
+  padding: 5em;
+  display: flex;
+  justify-content: center; }
+  #contacto #section .contactUs {
+    display: grid;
+    grid-template-columns: minmax(263px, 800px) 300px;
+    grid-template-rows: repeat(1, 500px);
+    justify-content: center;
+    box-shadow: 0 0 20px 0 rgba(225, 225, 225, 0.3); }
+    #contacto #section .contactUs .form_box {
+      background: #222222; }
+      #contacto #section .contactUs .form_box .form-control {
+        background: none;
+        border: none;
+        border-bottom: 1px solid #d63031;
+        border-radius: 0;
+        outline: 0;
+        color: #fff; }
+      #contacto #section .contactUs .form_box .btn {
+        background: #d63031;
+        border: none;
+        text-transform: uppercase; }
+        #contacto #section .contactUs .form_box .btn:hover {
+          background: red;
+          color: black; }
+  #contacto #section .info_contact {
+    background: #000;
+    color: #4b4c4d; }
+
+.footer .links {
+  color: #4b4c4d;
+  border: 1px solid;
+  border-radius: 50%; }
+  .footer .links .icon {
+    width: 30px; }
+
+.footer a {
+  color: #4b4c4d; }
+
+.footer p {
+  color: #4b4c4d; }
+
+/*----------------------------Responsive tablet--------------------------------*/
+@media (max-width: 992px) {
+  /*Pagina Servicios*/
+  #services .card img {
+    height: 50% !important; }
+  #services .section .card {
+    height: auto; }
+  #services .section .col {
+    width: 80% !important; }
+  /*Pagina Productos*/
+  #productos #section {
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(3, 450px); }
+  /*Pagina Contacto*/
+  #contacto .contactUs {
+    grid-template-columns: repeat(1, 100%) !important;
+    grid-template-rows: 500px auto;
+    justify-content: center; } }
+
+/*----------------------------Responsive mobile--------------------------------*/
+@media (max-width: 580px) {
+  /*All Headers*/
+  .logotype .logo {
+    height: 55px; }
+  /*Pagina Home*/
+  .carousel-item img {
+    object-fit: cover; }
+  /*Pagina Productos*/
+  #productos #section {
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(6, 450px); }
+  /*Pagina Nosotros*/
+  #nosotros #section {
+    grid-template-columns: repeat(1, 80%);
+    grid-template-rows: repeat(3, auto);
+    padding: 5em 0; }
+  /*Pagina Contacto*/
+  #contacto #section {
+    padding: 2em; } }

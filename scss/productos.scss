@@ -1,0 +1,65 @@
+/*---------------------------Pagina para Productos---------------------------*/
+
+#productos{
+    #section{
+        display: grid;
+        grid-template-columns: repeat(3, 30%);
+        grid-template-rows: repeat(2, 400px);
+        justify-content: center;
+        padding: 50px;
+        gap: 50px;
+
+        .cards{
+            background: #fff;
+            border-radius: 5px;
+            text-align: center;
+
+            .img_producto{
+                height: 50%;
+                margin-top: 30px;
+                cursor: pointer;
+            }
+
+            .description{
+                font-size: 20px;
+                padding: 5px;
+                margin-top: 13px;
+                cursor: pointer;
+            }
+
+            .price_cart{
+                display: flex;
+                justify-content: space-between;
+
+                .price{
+                    background: #184770;
+                    width: 110px;
+                    height: 50px;
+                    border-radius: 0 15px 0 0;
+                    cursor: pointer;
+
+                    p{
+                        margin: 0;
+                        color: #fff;
+                    }
+                }
+
+                .cart{
+                    background: #7088A0;
+                    width: 90px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-right: 30px;
+                    cursor: pointer;
+
+                    p{
+                        margin: 0;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+
