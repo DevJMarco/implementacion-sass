@@ -5,6 +5,11 @@
         font-family: 'Courier New', Courier, monospace;
         font-size: 25px;
     }
+
+    .navbar-toggler{
+        background: white;
+    }
+
     .nav-link:hover{
         background: orange;
         transition: .5s;

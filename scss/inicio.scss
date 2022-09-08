@@ -1,6 +1,15 @@
 /*---------------------------Pagina Home---------------------------*/
 
 #home{
+    #carouselExampleCaptions{
+        .carousel-caption{
+            &:hover{
+                background: black;
+                transition: .5s;
+                cursor: default;
+            }
+        }
+    }
     .card{
         width: 320px;
         transition: 0.5s ease;

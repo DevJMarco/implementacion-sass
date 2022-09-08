@@ -16,11 +16,19 @@ footer, #footer {
   font-family: 'Courier New', Courier, monospace;
   font-size: 25px; }
 
+.header .navbar-toggler {
+  background: white; }
+
 .header .nav-link:hover {
   background: orange;
   transition: .5s; }
 
 /*---------------------------Pagina Home---------------------------*/
+#home #carouselExampleCaptions .carousel-caption:hover {
+  background: black;
+  transition: .5s;
+  cursor: default; }
+
 #home .card {
   width: 320px;
   transition: 0.5s ease;
@@ -42,7 +50,8 @@ footer, #footer {
       box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.7);
       transform: translateY(-3%); }
     #services .col .card img {
-      height: 50%; }
+      height: 50%;
+      object-fit: fill; }
 
 /*----------------Layout GRID para Productos, Nosotros y Contacto----------------*/
 .grid_container {
@@ -220,6 +229,10 @@ footer, #footer {
   /*Pagina Home*/
   .carousel-item img {
     object-fit: cover; }
+  .carousel-item .carousel-caption h5 {
+    background: black; }
+  .carousel-item .carousel-caption p {
+    background: black; }
   /*Pagina Productos*/
   #productos #section {
     grid-template-columns: repeat(1, auto);

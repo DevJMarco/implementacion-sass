@@ -7,9 +7,20 @@
     }
 
     /*Pagina Home*/
-    .carousel-item img{
-        object-fit:cover ;
-    }
+    .carousel-item{    
+        img{
+            object-fit:cover ;
+        }
+        .carousel-caption{
+            h5{
+                background: black;
+            }
+
+            p{
+                background: black;
+            }
+        }
+    } 
 
     /*Pagina Productos*/
     #productos #section{
