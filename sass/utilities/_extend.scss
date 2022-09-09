@@ -1,1 +1,18 @@
-//extend 
+//Los estilos de esta card se encuentran en el archivo _nosotros.scss
+
+//Creacion de una clase y uso de extend para las cards de la pagina nosotros
+.card_comment{
+    @extend .comment;
+    > img {
+        @extend .img_user;
+    }
+    > h3 {
+        @extend .name_user;
+    }
+    > p {
+        @extend .opinion;
+    }
+    > div i{
+        @extend .star_icon;
+    }
+}
