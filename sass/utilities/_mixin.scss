@@ -13,9 +13,8 @@
 //@include nombre(black, bold, 2em)
 
 //-------------------mixin sin parametro-------------------
-@mixin flex-row-center {
+@mixin flex-center {
     display: flex;
-    flex-direction: row;
     justify-content: center;
 }
 //@include flex-row-center

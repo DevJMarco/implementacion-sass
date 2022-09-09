@@ -2,8 +2,7 @@
 
 #contacto #section{
     padding: 5em;
-    display: flex;
-    justify-content: center;
+    @include flex-center;
 
     .contactUs{
         display: grid;

@@ -5,12 +5,11 @@
         width: 40%;
 
         .card{
-            height: 350px;
-            width: 90% !important;
+            @include size_box(350px !important, 90% !important);
             box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
             transition: all 400ms ease;
             cursor: default;
-
+            
             &:hover{
                 box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.7);
                 transform: translateY(-3%); 

@@ -1,9 +1,8 @@
 /*---------------------------Main para todas las paginas---------------------------*/
 
 #main{
-    display:flex;
+    @include flex-center;
     flex-direction: column;
-    justify-content: center;
     text-align: center;
 
     .title{
