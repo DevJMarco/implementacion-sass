@@ -1,0 +1,26 @@
+//-------------------mixin con parametro-------------------
+@mixin size_box( $h, $w) {
+    height: $h;
+    width: $w;
+}
+// @include size_box(500px, 50px)
+
+@mixin nombre($argumento1, $argumento2, $argumento3) {
+    color: $argumento1;
+    font-weight: $argumento2;
+    font-size: $argumento3;
+}
+//@include nombre(black, bold, 2em)
+
+//-------------------mixin sin parametro-------------------
+@mixin flex-row-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+//@include flex-row-center
+
+@mixin bg_tittle {
+    background: black;
+}
+//@include bg_tittle

@@ -140,20 +140,20 @@ footer, #footer {
     background: #171717;
     color: #fff;
     text-align: center; }
-  #nosotros #section .img_user {
-    height: 90px;
-    object-fit: cover;
-    margin-top: -50px; }
-  #nosotros #section .name_user {
-    font-size: 30px;
-    padding: 20px;
-    margin: 0; }
-  #nosotros #section .opinion {
-    padding: 12px; }
-  #nosotros #section .stars i {
-    color: #e91e63;
-    padding: 0 0 2em 0;
-    font-size: 20px; }
+    #nosotros #section .comment .img_user {
+      height: 90px;
+      object-fit: cover;
+      margin-top: -50px; }
+    #nosotros #section .comment .name_user {
+      font-size: 30px;
+      padding: 20px;
+      margin: 0; }
+    #nosotros #section .comment .opinion {
+      padding: 12px; }
+    #nosotros #section .comment .stars i {
+      color: #e91e63;
+      padding: 0 0 2em 0;
+      font-size: 20px; }
 
 /*---------------------------Pagina para Contacto---------------------------*/
 #contacto #section {
