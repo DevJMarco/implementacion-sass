@@ -8,7 +8,7 @@ Modificaciones SASS:
 
 Modificaciones SEO:
 
--
+-Redimension de imagenes y cambio de nombres genericos
 -
 -
 -

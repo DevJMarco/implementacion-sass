@@ -4,7 +4,7 @@
     display: grid;
     grid-template: 
     "header" auto 
-    "main" 50vh
+    "main" minmax(50vh, auto)
     "section" auto
     "footer" auto /
     100%;

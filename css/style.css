@@ -30,7 +30,7 @@ footer, #footer {
   cursor: default; }
 
 #home .card {
-  width: 320px;
+  width: 270px;
   transition: 0.5s ease;
   cursor: pointer; }
   #home .card:hover {
@@ -56,7 +56,7 @@ footer, #footer {
 /*----------------Layout GRID para Productos, Nosotros y Contacto----------------*/
 .grid_container {
   display: grid;
-  grid-template: "header" auto  "main" 50vh "section" auto "footer" auto / 100%; }
+  grid-template: "header" auto "main" minmax(50vh, auto) "section" auto "footer" auto/100%; }
 
 #header {
   grid-area: header; }
@@ -85,7 +85,7 @@ footer, #footer {
 
 /*---------------------------Pagina para Productos---------------------------*/
 #productos .title-xs {
-  font-size: 1.5remx; }
+  font-size: 1.5rem; }
 
 #productos .title-md {
   font-size: 1.8rem; }
@@ -243,13 +243,18 @@ footer, #footer {
   /*All Headers*/
   .logotype .logo {
     height: 55px; }
-  /*Pagina Home*/
-  .carousel-item img {
+  /*Pagina Inicio*/
+  #home .carousel-item img {
     object-fit: cover; }
-  .carousel-item .carousel-caption h5 {
+  #home .carousel-item .carousel-caption h5 {
     background: black; }
-  .carousel-item .carousel-caption p {
+  #home .carousel-item .carousel-caption p {
     background: black; }
+  #home .card {
+    width: 250px; }
+  /*Pagina Servicios*/
+  #services .main {
+    height: auto !important; }
   /*Pagina Productos*/
   #productos #section {
     grid-template-columns: repeat(1, auto);

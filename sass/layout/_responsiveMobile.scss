@@ -6,21 +6,31 @@
         height: 55px;
     }
 
-    /*Pagina Home*/
-    .carousel-item{    
-        img{
-            object-fit:cover ;
-        }
-        .carousel-caption{
-            h5{
-                background: black;
+    /*Pagina Inicio*/
+    #home{
+        .carousel-item{    
+            img{
+                object-fit:cover ;
             }
+            .carousel-caption{
+                h5{
+                    background: black;
+                }
 
-            p{
-                background: black;
-            }
+                p{
+                    background: black;
+                }
+            }        
         }
-    } 
+        .card{
+            width: 250px;
+        }
+    }
+
+    /*Pagina Servicios*/
+    #services .main{
+        height: auto !important;
+    }
 
     /*Pagina Productos*/
     #productos #section{
