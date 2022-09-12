@@ -84,6 +84,18 @@ footer, #footer {
     padding: 15px; }
 
 /*---------------------------Pagina para Productos---------------------------*/
+#productos .title-xs {
+  font-size: 1.5remx; }
+
+#productos .title-md {
+  font-size: 1.8rem; }
+
+#productos .title-lg {
+  font-size: 2rem; }
+
+#productos .title-xl {
+  font-size: 2.5rem; }
+
 #productos #section {
   display: grid;
   grid-template-columns: repeat(3, 30%);

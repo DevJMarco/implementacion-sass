@@ -1,9 +1,17 @@
 /*paleta de colores de toda la pagina*/
 
-header, #header{ background: $ColorHeaderFooter; }
+header, #header{
+    background: map-get($map: $paleta, $key: 'ColorHeaderFooter');
+}
 
-main, #main{ background: $ColorMain; }
+main, #main{
+    background: map-get($map: $paleta, $key: 'ColorMain');
+}
 
-section, #section{ background: $ColorSection; }
+section, #section{
+    background: map-get($map: $paleta, $key: 'ColorSection');
+ }
 
-footer, #footer{ background: $ColorHeaderFooter; }
+footer, #footer{
+    background: map-get($map: $paleta, $key: 'ColorHeaderFooter');
+}

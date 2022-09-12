@@ -1,4 +1,13 @@
-// Declaracion de variables
-$ColorHeaderFooter: #1a1b1c;
-$ColorMain: #222326;
-$ColorSection: #727683;
+//paleta de colores de uso general;
+$paleta: (
+  'ColorHeaderFooter': #1a1b1c,
+  'ColorMain': #222326,
+  'ColorSection': #727683
+);
+
+$titles: (
+  "xs": 1.5remx,
+  "md": 1.8rem,
+  "lg": 2rem,
+  "xl": 2.5rem
+);

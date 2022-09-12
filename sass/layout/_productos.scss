@@ -1,6 +1,13 @@
 /*---------------------------Pagina para Productos---------------------------*/
 
 #productos{
+    
+    @each $name, $size in $titles {
+        .title-#{$name}{
+            font-size: $size;
+        }
+    }
+   
     #section{
         display: grid;
         grid-template-columns: repeat(3, 30%);
