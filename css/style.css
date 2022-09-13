@@ -1,3 +1,26 @@
+.comment, .card_comment {
+  background: #171717;
+  color: #fff;
+  text-align: center; }
+
+.img_user, .card_comment > img {
+  height: 90px;
+  object-fit: cover;
+  margin-top: -50px; }
+
+.name_user, .card_comment > h3 {
+  font-size: 30px;
+  padding: 20px;
+  margin: 0; }
+
+.opinion, .card_comment > p {
+  padding: 12px; }
+
+.star_icon, .card_comment > div i {
+  color: #e91e63;
+  padding: 0 0 2em 0;
+  font-size: 20px; }
+
 /*paleta de colores de toda la pagina*/
 header, #header {
   background: #1a1b1c; }
@@ -149,29 +172,6 @@ footer, #footer {
   padding: 5em;
   gap: 80px; }
 
-.comment, .card_comment {
-  background: #171717;
-  color: #fff;
-  text-align: center; }
-
-.img_user, .card_comment > img {
-  height: 90px;
-  object-fit: cover;
-  margin-top: -50px; }
-
-.name_user, .card_comment > h3 {
-  font-size: 30px;
-  padding: 20px;
-  margin: 0; }
-
-.opinion, .card_comment > p {
-  padding: 12px; }
-
-.star_icon, .card_comment > div i {
-  color: #e91e63;
-  padding: 0 0 2em 0;
-  font-size: 20px; }
-
 /*---------------------------Pagina para Contacto---------------------------*/
 #contacto #section {
   padding: 5em;
@@ -193,7 +193,6 @@ footer, #footer {
         border: none;
         border-bottom: 1px solid #d63031;
         border-radius: 0;
-        outline: 0;
         color: #fff; }
       #contacto #section .contactUs .form_box .btn {
         background: #d63031;

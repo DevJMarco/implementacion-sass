@@ -5,12 +5,6 @@
 }
 // @include size_box(500px, 50px)
 
-// @mixin nombre($argumento1, $argumento2, $argumento3) {
-//     color: $argumento1;
-//     font-weight: $argumento2;
-//     font-size: $argumento3;
-// }
-//@include nombre(black, bold, 2em)
 
 //-------------------mixin sin parametro-------------------
 @mixin flex-center {
@@ -19,7 +13,3 @@
 }
 //@include flex-row-center
 
-// @mixin bg_tittle {
-//     background: black;
-// }
-//@include bg_tittle
