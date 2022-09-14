@@ -21,3 +21,4 @@ Modificaciones SEO:
     nosotros: cambio de Comptech a Nosotros | Comtepch
     Contacto: cambio de Comptech a Contacto | Comtepch
 -Agregado de una descripcion en las etiquetas alt de las imagenes.
+-Implementacion de Open Graph (Solo visible en facebook y twitter) con metatags.io 
