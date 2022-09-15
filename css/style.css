@@ -194,6 +194,10 @@ footer, #footer {
         border-bottom: 1px solid #d63031;
         border-radius: 0;
         color: #fff; }
+        #contacto #section .contactUs .form_box .form-control:focus {
+          outline: none !important;
+          outline-width: 0 !important;
+          box-shadow: none; }
       #contacto #section .contactUs .form_box .btn {
         background: #d63031;
         border: none;

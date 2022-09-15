@@ -24,8 +24,12 @@
                 border: none;
                 border-bottom: 1px solid #d63031;
                 border-radius: 0;
-                // outline: none;
                 color: #fff;
+                &:focus{
+                    outline:none !important;
+                    outline-width: 0 !important;
+                    box-shadow: none;
+                }
             }
 
             .btn{
