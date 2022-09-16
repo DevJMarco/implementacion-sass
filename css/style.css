@@ -73,8 +73,7 @@ footer, #footer {
       box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.7);
       transform: translateY(-3%); }
     #services .col .card img {
-      height: 50%;
-      object-fit: fill; }
+      height: 50%; }
 
 /*----------------Layout GRID para Productos, Nosotros y Contacto----------------*/
 .grid_container {
