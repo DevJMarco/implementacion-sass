@@ -1,3 +1,12 @@
+
+Proyecto Final:
+-Pagina Inicio y Servicios maquetadas con bootstrap.
+-Pagina Productos, Nosotros y Contacto maquetadas con Grids y flebox.
+-En la pagina nosotros en la version mobile se puede apreciar una animacion con AOS.
+
+
+
+
 Modificaciones SASS:
 
 -Cambio de la carpeta scss por la carpeta sass y empleo de una estructura adecuada en la misma.
